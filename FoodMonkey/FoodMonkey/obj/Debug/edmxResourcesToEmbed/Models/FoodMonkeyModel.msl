@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FoodMonkeyModelStoreContainer" CdmEntityContainer="FoodMonkeyEntities">
+    <EntitySetMapping Name="announcements">
+      <EntityTypeMapping TypeName="FoodMonkeyModel.announcement">
+        <MappingFragment StoreEntitySet="announcements">
+          <ScalarProperty Name="ann_id" ColumnName="ann_id" />
+          <ScalarProperty Name="admin_id" ColumnName="admin_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="orders">
+      <EntityTypeMapping TypeName="FoodMonkeyModel.order">
+        <MappingFragment StoreEntitySet="orders">
+          <ScalarProperty Name="order_id" ColumnName="order_id" />
+          <ScalarProperty Name="restaurant_id" ColumnName="restaurant_id" />
+          <ScalarProperty Name="restaurant_name" ColumnName="restaurant_name" />
+          <ScalarProperty Name="customer_id" ColumnName="customer_id" />
+          <ScalarProperty Name="price_on_selling_time" ColumnName="price_on_selling_time" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="area" ColumnName="area" />
+          <ScalarProperty Name="address" ColumnName="address" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="reports">
+      <EntityTypeMapping TypeName="FoodMonkeyModel.report">
+        <MappingFragment StoreEntitySet="reports">
+          <ScalarProperty Name="rep_id" ColumnName="rep_id" />
+          <ScalarProperty Name="restaurant_id" ColumnName="restaurant_id" />
+          <ScalarProperty Name="customer_id" ColumnName="customer_id" />
+          <ScalarProperty Name="rep_description" ColumnName="rep_description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="site_info">
+      <EntityTypeMapping TypeName="FoodMonkeyModel.site_info">
+        <MappingFragment StoreEntitySet="site_info">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="traffic_number" ColumnName="traffic_number" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="FoodMonkeyModel.user">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="phone_number" ColumnName="phone_number" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="NID_number" ColumnName="NID_number" />
+          <ScalarProperty Name="area" ColumnName="area" />
+          <ScalarProperty Name="address" ColumnName="address" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

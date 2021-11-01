@@ -1,0 +1,67 @@
+﻿@model IEnumerable<FoodMonkey.Models.order>
+
+@{
+    ViewBag.Title = "All Transaction";
+}
+
+<h2>All Transactions</h2><br><br>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.order_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.restaurant_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.restaurant_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.customer_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.price_on_selling_time)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.amount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.area)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.address)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.order_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.restaurant_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.restaurant_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.customer_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.price_on_selling_time)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.amount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.area)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.address)
+        </td>
+    </tr>
+}
+
+</table>

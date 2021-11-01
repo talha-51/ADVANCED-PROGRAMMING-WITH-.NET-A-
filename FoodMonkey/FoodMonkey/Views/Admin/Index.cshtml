@@ -1,0 +1,89 @@
+﻿@model FoodMonkey.Models.site_info
+
+@{
+    ViewBag.Title = "Admin Home";
+}
+
+<center>
+    <div>
+        <marquee behavior="scroll" direction="right" scrollamount="12"><h1>Welcome To Food Monkey</h1></marquee>
+    </div><br><br>
+
+    <div>
+        <h1><u>Site Overview</u></h1>
+    </div><br><br><br>
+
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><h2><b><p class="text-info">Total traffic</p></b></h2></h5>
+                    <p class="card-text"><h3>@Model.traffic_number</h3></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><h2><b><p class="text-info">Total Users</p></b></h2></h5>
+                    <p class="card-text"><h3>@ViewBag.users</h3></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><h2><b><p class="text-info">Sales Value</p></b></h2></h5>
+                    <p class="card-text"><h3>@ViewBag.sale</h3></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><h2><b><p class="text-info">Total Orders</p></b></h2></h5>
+                    <p class="card-text"><h3>@ViewBag.order</h3></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><h2><b><p class="text-info">Admins</p></b></h2></h5>
+                    <p class="card-text"><h3>@ViewBag.admin</h3></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><h2><b><p class="text-info">Restaurant Owners</p></b></h2></h5>
+                    <p class="card-text"><h3>@ViewBag.restaurant</h3></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><h2><b><p class="text-info">Customers</p></b></h2></h5>
+                    <p class="card-text"><h3>@ViewBag.customer</h3></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><h2><b><p class="text-info">Delivery Agents</p></b></h2></h5>
+                    <p class="card-text"><h3>@ViewBag.agent</h3></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</center>

@@ -1,0 +1,18 @@
+﻿@model FoodMonkey.Models.user
+
+@{
+    ViewBag.Title = "Delete User Info";
+}
+
+<h1>Delete User Info</h1><br><br>
+
+<form action="/Admin/DeleteUserInfo" method="post">
+    <h2>Are you sure to delete the following?</h2><br>
+    <h4>Name: @Model.name </h4>
+    <h4>User Type: @Model.type </h4><br><br>
+    <input type="hidden" name="id" value="@Model.id">
+    <input class="btn btn-danger" type="submit" value="Delete">
+
+</form>
+
+

@@ -1,0 +1,17 @@
+﻿@model FoodMonkey.Models.announcement
+
+@{
+    ViewBag.Title = "Delete Announcement";
+}
+
+<h1>Delete Announcement</h1>
+<br>
+<br>
+
+<form action="/Admin/DeleteAnnouncement" method="post">
+    <h2>Are you sure to delete the following announcement?</h2><br>
+    <h4>Description: @Model.description </h4><br><br>
+    <input type="hidden" name="ann_id" value="@Model.ann_id">
+    <input class="btn btn-danger" type="submit" value="Delete">
+
+</form>
