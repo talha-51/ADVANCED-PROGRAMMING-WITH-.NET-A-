@@ -1,8 +1,11 @@
-﻿using System;
+﻿using FoodMonkey.Models;
+using FoodMonkey.Repository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 
 namespace FoodMonkey.Controllers
 {
@@ -13,11 +16,17 @@ namespace FoodMonkey.Controllers
             return View();
         }
 
-        public ActionResult About()
+        [HttpPost]
+        public ActionResult Login(user u)
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
+            var user = UserRepository.Authenticate(u.email, u.password);
+            if (user != null)
+            {
+                FormsAuthentication.SetAuthCookie(user.email, true);
+                return RedirectToAction("Index", "Admin");
+            }
+            ViewBag.Error = "Invalid Email or Password";
+            return RedirectToAction("Index");
         }
 
         public ActionResult Contact()
