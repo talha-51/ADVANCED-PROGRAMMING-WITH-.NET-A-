@@ -1,0 +1,26 @@
+<center>
+    <h1>Announcement</h1><br><br>
+
+    <p>
+        <h3><a href="#!addAnnouncement">Send Announcement</a></h3>
+    </p><br>
+    
+    
+          <div ng-controller = "announcement">
+                <table class="table table-striped">
+                    <tr>
+                        <th>ANN_ID</th>
+                        <th>Admin_ID</th>
+                        <th>Description</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr ng-repeat= "s in post">
+                        <td>{{s.ann_id}}</td>
+                        <td>{{s.admin_id}}</td>
+                        <td>{{s.description}}</td>
+                        <td>{{s.status}}</td>
+                    </tr>
+                </table>
+          </div>
+          
+    </center>

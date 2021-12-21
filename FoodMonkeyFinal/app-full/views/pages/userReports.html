@@ -1,0 +1,22 @@
+<center>
+    <h1>User Reports</h1><br><br>
+    
+    
+          <div ng-controller = "userReports">
+                <table class="table table-striped">
+                    <tr>
+                        <th>REP_ID</th>
+                        <th>Restaurant Id</th>
+                        <th>Customer id</th>
+                        <th>Rep Description</th>
+                    </tr>
+                    <tr ng-repeat= "s in post">
+                        <td>{{s.rep_id}}</td>
+                        <td>{{s.restaurant_id}}</td>
+                        <td>{{s.customer_id}}</td>
+                        <td>{{s.rep_description}}</td>
+                    </tr>
+                </table>
+          </div>
+          
+    </center>

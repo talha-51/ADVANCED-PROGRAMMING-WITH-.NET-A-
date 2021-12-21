@@ -1,0 +1,38 @@
+<center>
+<h1>View All User Info</h1><br><br>
+
+<p>
+    <h3><a href="#!addAdmin">Add Admin</a></h3>
+</p><br>
+
+
+      <div ng-controller = "viewAllUser">
+            <table class="table table-striped">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Type</th>
+                    <th>Phone NO</th>
+                    <th>Status</th>
+                    <th>NID NO</th>
+                    <th>Area</th>
+                    <th>Address</th>
+                </tr>
+                <tr ng-repeat= "s in post">
+                    <td>{{s.id}}</td>
+                    <td>{{s.name}}</td>
+                    <td>{{s.email}}</td>
+                    <td>{{s.password}}</td>
+                    <td>{{s.type}}</td>
+                    <td>{{s.phone_number}}</td>
+                    <td>{{s.status}}</td>
+                    <td>{{s.NID_number}}</td>
+                    <td>{{s.area}}</td>
+                    <td>{{s.address}}</td>
+                </tr>
+            </table>
+      </div>
+      
+</center>

@@ -1,0 +1,10 @@
+G:\CSE\Semester 11\Adv .NET\ADVANCED-PROGRAMMING-WITH-.NET-A-\FoodMonkeyFinal\TierApp\DAL\bin\Debug\DAL.dll.config
+G:\CSE\Semester 11\Adv .NET\ADVANCED-PROGRAMMING-WITH-.NET-A-\FoodMonkeyFinal\TierApp\DAL\bin\Debug\DAL.dll
+G:\CSE\Semester 11\Adv .NET\ADVANCED-PROGRAMMING-WITH-.NET-A-\FoodMonkeyFinal\TierApp\DAL\bin\Debug\DAL.pdb
+G:\CSE\Semester 11\Adv .NET\ADVANCED-PROGRAMMING-WITH-.NET-A-\FoodMonkeyFinal\TierApp\DAL\bin\Debug\EntityFramework.dll
+G:\CSE\Semester 11\Adv .NET\ADVANCED-PROGRAMMING-WITH-.NET-A-\FoodMonkeyFinal\TierApp\DAL\bin\Debug\EntityFramework.xml
+G:\CSE\Semester 11\Adv .NET\ADVANCED-PROGRAMMING-WITH-.NET-A-\FoodMonkeyFinal\TierApp\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+G:\CSE\Semester 11\Adv .NET\ADVANCED-PROGRAMMING-WITH-.NET-A-\FoodMonkeyFinal\TierApp\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\CSE\Semester 11\Adv .NET\ADVANCED-PROGRAMMING-WITH-.NET-A-\FoodMonkeyFinal\TierApp\DAL\obj\Debug\DAL.csproj.CopyComplete
+G:\CSE\Semester 11\Adv .NET\ADVANCED-PROGRAMMING-WITH-.NET-A-\FoodMonkeyFinal\TierApp\DAL\obj\Debug\DAL.dll
+G:\CSE\Semester 11\Adv .NET\ADVANCED-PROGRAMMING-WITH-.NET-A-\FoodMonkeyFinal\TierApp\DAL\obj\Debug\DAL.pdb

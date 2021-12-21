@@ -1,0 +1,30 @@
+<center>
+    <h1>View All Transaction</h1><br><br>
+    
+    
+          <div ng-controller = "viewAllTransaction">
+                <table class="table table-striped">
+                    <tr>
+                        <th>Order Id</th>
+                        <th>Restaurant Id</th>
+                        <th>Restaurant Name</th>
+                        <th>Customer Id</th>
+                        <th>Price on Selling Time</th>
+                        <th>Amount</th>
+                        <th>Area</th>
+                        <th>Address</th>
+                    </tr>
+                    <tr ng-repeat= "s in post">
+                        <td>{{s.order_id}}</td>
+                        <td>{{s.restaurant_id}}</td>
+                        <td>{{s.restaurant_name}}</td>
+                        <td>{{s.customer_id}}</td>
+                        <td>{{s.price_on_selling_time}}</td>
+                        <td>{{s.amount}}</td>
+                        <td>{{s.area}}</td>
+                        <td>{{s.address}}</td>
+                    </tr>
+                </table>
+          </div>
+          
+    </center>

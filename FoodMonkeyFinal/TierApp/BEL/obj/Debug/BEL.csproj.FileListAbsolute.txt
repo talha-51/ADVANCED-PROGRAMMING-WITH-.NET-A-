@@ -1,0 +1,6 @@
+G:\CSE\Semester 11\Adv .NET\ADVANCED-PROGRAMMING-WITH-.NET-A-\FoodMonkeyFinal\TierApp\BEL\bin\Debug\BEL.dll
+G:\CSE\Semester 11\Adv .NET\ADVANCED-PROGRAMMING-WITH-.NET-A-\FoodMonkeyFinal\TierApp\BEL\bin\Debug\BEL.pdb
+G:\CSE\Semester 11\Adv .NET\ADVANCED-PROGRAMMING-WITH-.NET-A-\FoodMonkeyFinal\TierApp\BEL\obj\Debug\BEL.csproj.AssemblyReference.cache
+G:\CSE\Semester 11\Adv .NET\ADVANCED-PROGRAMMING-WITH-.NET-A-\FoodMonkeyFinal\TierApp\BEL\obj\Debug\BEL.csproj.CoreCompileInputs.cache
+G:\CSE\Semester 11\Adv .NET\ADVANCED-PROGRAMMING-WITH-.NET-A-\FoodMonkeyFinal\TierApp\BEL\obj\Debug\BEL.dll
+G:\CSE\Semester 11\Adv .NET\ADVANCED-PROGRAMMING-WITH-.NET-A-\FoodMonkeyFinal\TierApp\BEL\obj\Debug\BEL.pdb
